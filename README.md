@@ -32,7 +32,7 @@ By default, while the program is running, it sends the message `Hello, this is a
 #### License:
 MIT License
 
-<!-- Copyright (c) 2023 Onotioese Izormen -->
+Copyright (c) 2023 Onotioese Izormen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
