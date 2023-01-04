@@ -3,6 +3,7 @@
 
 ##### This is a simple NodeJS program to automate sending and replying to whatsapp messages using *node-cron*,*qrcode-terminal* and *whatsapp-web* NPM packages. I hope to implement scheduled job-postings using Puppeteer. Buckle up for that 😉
 
+
 #### My motivation behind this project:
 Over the long period of time I've been using whatsapp (3+ Years), there were moments when I forgot
 to send messages such as birthday messages or messages requesting permission from someone and I thought: I've been coding since 2019, why don't I just *automate* it? Here we are 😅
