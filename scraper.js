@@ -19,3 +19,10 @@ function getInfo() {
                 const location = $(element).find('span.job-search-card__location').text().trim()
                 const link = $(element).find('a.base-card__full-link').attr('href')
     
+                linkedinJobs.push({
+                    'Title': jobTitle,
+                    'Company': company,
+                    'Location': location,
+                    'Link': link,
+                })
+    
