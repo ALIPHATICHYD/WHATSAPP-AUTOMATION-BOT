@@ -26,3 +26,31 @@ function getInfo() {
                     'Link': link,
                 })
     
+                if(!jobTitle || !company || !location || !link){
+                    linkedinJobs.pop()
+                }
+                resolve(linkedinJobs)
+            });
+            // const csv = new ObjectsToCsv(linkedinJobs)
+            // csv.toDisk('./linkedInJobs.csv', { append: true })
+        })
+        .catch(console.error)
+
+        pageNumber+= 25;
+        if(pageNumber < 50){
+            getInfo()
+        }
+    }, 5000);
+})
+}
+
+
+let jobs = new Promise(function showResult(resolve, reject){
+    getInfo().then((result) =>{
+        resolve(result)
+    }).catch(err => console.log(err))
+})
+
+
+
+module.exports = {jobs}
